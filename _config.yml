@@ -1,103 +1,80 @@
+# ================================
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default"
-title                    : "Fida Ur Rahman"
-title_separator          : "-"
-name                     : &name "Fida Ur Rahman"
-description              : &description "AI-focused Software Engineering graduate | Android & AI Developer"
-url                      :https://fidaarahman.github.io
+# ================================
+locale: "en-US"
+title: "Fida Ur Rahman"
+title_separator: "-"
+name: &name "Fida Ur Rahman"
+description: &description "AI-focused Software Engineering graduate | Android & AI Developer"
+
+url: "https://fidaarahman.github.io"
 baseurl: ""
-repository: "fidaarahman/fidaarrahman.github.io"
 
-# Site Author (Sidebar Profile)
+repository: "fidaarahman/fidaarahman.github.io"
+
+# ================================
+# Author (Sidebar Profile)
+# ================================
 author:
-  avatar           : "profile.jpg"
-  name             : "Fida Ur Rahman"
-  pronouns         :
-  bio              : "Software Engineering graduate with experience in AI, Deep Learning, Computer Vision, and Android development."
-  location         : "Islamabad, Pakistan"
-  employer         : "AI & Android Developer"
-  uri              :
-  email            : "fidaurrahman700@gmail.com"
+  avatar: "profile.jpg"
+  name: "Fida Ur Rahman"
+  bio: "Software Engineering graduate with experience in AI, Deep Learning, Computer Vision, and Android development."
+  location: "Islamabad, Pakistan"
+  employer: "AI & Android Developer"
+  email: "fidaurrahman700@gmail.com"
 
-  # Academic websites
-  academia         :
-  arxiv            :
-  googlescholar    :
-  inspire-hep      :
-  impactstory      :
-  orcid            :
-  semantic         :
-  ssrn             :
-  pubmed           :
-  researchgate     :
-  scopus           :
-  zotero           :
+  # Academic profiles
+  googlescholar:
+  researchgate:
+  orcid:
 
-  # Repositories and software development
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  github           : "fidaarahman"
-  kaggle           :
-  stackoverflow    :
+  # Code & Dev
+  github: "fidaarahman"
+  kaggle:
+  stackoverflow:
 
-  # Social media
-  artstation       :
-  bluesky          :
-  facebook         :
-  flickr           :
-  foursquare       :
-  goodreads        :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : "your-linkedin-username"
-  mastodon         :
-  medium           :
-  pinterest        :
-  soundcloud       :
-  steam            :
-  telegram         :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  wikipedia        :
-  xing             :
-  youtube          :
-  zhihu            :
+  # Social
+  linkedin: "your-linkedin-username"
 
+# ================================
 # Publication Categories
+# ================================
 publication_category:
   manuscripts:
-    title: 'Journal Articles'
+    title: "Journal Articles"
   conferences:
-    title: 'Conference Papers'
+    title: "Conference Papers"
 
-# Site Settings
-breadcrumbs              : false
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled"
-talkmap_link             : false
+# ================================
+# Site Behavior
+# ================================
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
+talkmap_link: false
 
-# SEO
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+# ================================
+# SEO (optional)
+# ================================
+google_site_verification:
+bing_site_verification:
+yandex_site_verification:
 
-# Analytics (optional – add later)
+# ================================
+# Analytics (disabled for now)
+# ================================
 analytics:
-  provider               : "false"
+  provider: false
 
-# Files
+# ================================
+# Files & Build
+# ================================
 include:
   - .htaccess
   - _pages
   - files
+
 exclude:
   - .github
   - node_modules
@@ -107,26 +84,31 @@ exclude:
   - Gemfile.lock
 
 encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+# ================================
 # Markdown
+# ================================
 markdown: kramdown
 highlighter: rouge
 excerpt_separator: "\n\n"
 
+# ================================
 # Collections
+# ================================
 collections:
   publications:
     output: true
-    permalink: /:collection/:path/
+    permalink: /publications/:path/
   portfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: /portfolio/:path/
   talks:
     output: true
-    permalink: /:collection/:path/
+    permalink: /talks/:path/
 
+# ================================
 # Defaults
+# ================================
 defaults:
   - scope:
       path: ""
@@ -135,16 +117,22 @@ defaults:
       layout: single
       author_profile: true
 
-# Sass
+# ================================
+# Sass / CSS
+# ================================
 sass:
   sass_dir: _sass
   style: compressed
 
+# ================================
 # Output
+# ================================
 permalink: /:categories/:title/
 timezone: Etc/UTC
 
-# Plugins
+# ================================
+# Plugins (GitHub Pages supported)
+# ================================
 plugins:
   - jekyll-feed
   - jekyll-gist
