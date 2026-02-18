@@ -5,7 +5,7 @@ locale: "en-US"
 title: "Fida Ur Rahman"
 title_separator: "-"
 name: &name "Fida Ur Rahman"
-description: &description "AI-focused Software Engineering graduate | Android & AI Developer"
+description: &description "Software Engineer"
 
 url: "https://fidaarahman.github.io"
 baseurl: ""
@@ -18,9 +18,7 @@ repository: "fidaarahman/fidaarahman.github.io"
 author:
   avatar: "/images/profile.png"
   name: "Fida Ur Rahman"
-  bio: "Software Engineering graduate with experience in AI, Deep Learning, Computer Vision, and Android development."
-  location: "Islamabad, Pakistan"
-  employer: "AI & Android Developer"
+  bio: "Software Engineer"
   email: "fidaurrahman700@gmail.com"
 
   # Academic profiles
