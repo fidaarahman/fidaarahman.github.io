@@ -18,7 +18,9 @@ repository: "fidaarahman/fidaarahman.github.io"
 author:
   avatar: "/images/profile.png"
   name: "Fida Ur Rahman"
-  bio: "Software Engineer"
+  bio: "Software Engineering graduate with experience in AI, Deep Learning, Computer Vision, and Android development."
+  location: "Islamabad, Pakistan"
+  employer: "AI Engineer"
   email: "fidaurrahman700@gmail.com"
 
   # Academic profiles
@@ -32,7 +34,7 @@ author:
   stackoverflow:
 
   # Social
-  linkedin: "your-linkedin-username"
+  linkedin: "fidarh24"
 
 # ================================
 # Publication Categories

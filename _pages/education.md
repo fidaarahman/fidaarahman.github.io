@@ -9,12 +9,7 @@ author_profile: true
 
 ## Education
 
-* **B.S. in Software Engineering**, [Your University Name], [Year]
-  * Focus: Artificial Intelligence, Deep Learning, Computer Vision
-  * GPA: [Your GPA] (if applicable)
-
-* **Additional Academic Achievements**
-  * [Any honors, awards, or notable academic achievements]
-
-* **Relevant Coursework**
-  * [List relevant courses if desired]
+* **Bachelor of Software Engineering**
+  * Capital University of Science and Technology (CUST)
+  * CGPA: 3.19
+  * Islamabad, Pakistan

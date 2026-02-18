@@ -9,7 +9,7 @@ redirect_from:
 
 Hi, I'm Fida Ur Rahman!
 ======
-I'm a Software Engineering graduate with a passion for Artificial Intelligence, Deep Learning, and Android development. I specialize in creating intelligent applications that solve real-world problems using cutting-edge AI technologies.
+I am a Software Engineering graduate with strong experience in artificial intelligence and applied machine learning. I have worked on research-oriented projects in computer vision, deep learning, and natural language processing, and have hands-on experience in building, training, and deploying AI models for real-world applications.
 
 My Expertise
 ======
