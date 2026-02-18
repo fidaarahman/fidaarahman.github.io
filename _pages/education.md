@@ -11,5 +11,10 @@ author_profile: true
 
 * **Bachelor of Software Engineering**
   * Capital University of Science and Technology (CUST)
-  * CGPA: 3.19
-  * Islamabad, Pakistan
+  * CGPA: 3.19 — Islamabad
+
+* **HSSC**
+  * Government Degree College No.2, Bannu
+
+* **SSC**
+  * Iqra Public High School, Bannu
