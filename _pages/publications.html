@@ -14,26 +14,22 @@ author_profile: true
 <h2>Research Publications</h2>
 <hr />
 
-{% for post in site.publications %}
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <h3 class="archive__item-title" itemprop="headline">{{ post.title }}</h3>
+<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <h3 class="archive__item-title" itemprop="headline">An Integrated Multi-Modal AI Framework for Credit Card Fraud Detection</h3>
 
-    {% if post.venue or post.date %}
-      <p>
-        {% if post.venue %}Published in <i>{{ post.venue }}</i>{% endif %}
-        {% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
-      </p>
-    {% endif %}
+  <p><i>Status: Research paper in publication process (IEEE / Elsevier / Springer)</i></p>
 
-    {% if post.excerpt %}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% endif %}
+  <p class="archive__item-excerpt" itemprop="description">
+    Multi-modal AI framework combining Transformers and Graph Neural Networks for fraud detection.
+  </p>
 
-    {% if post.content %}
-      <div class="page__content" itemprop="text">
-        {{ post.content | markdownify }}
-      </div>
-    {% endif %}
-  </article>
-{% endfor %}
-
+  <div class="page__content" itemprop="text">
+    <p>
+      This research paper presents an integrated multi-modal artificial intelligence framework designed for credit card fraud detection. The approach combines Transformer architectures with Graph Neural Networks to achieve robust fraud detection while maintaining high recall and precision.
+    </p>
+    <p>
+      <strong>Key contributions:</strong> The framework leverages multiple data modalities and achieves state-of-the-art performance with privacy-preserving AI integration for secure financial transactions. The paper is currently in preparation for submission to a top-tier venue (IEEE, Elsevier, or Springer).
+    </p>
+    <p><em>Research paper currently in preparation for submission.</em></p>
+  </div>
+</article>

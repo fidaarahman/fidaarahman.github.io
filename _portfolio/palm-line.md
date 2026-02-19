@@ -3,8 +3,9 @@ title: "Palm-Line Detection using YOLOv8"
 collection: portfolio
 excerpt: "Computer vision application for detecting palm lines using YOLOv8 object detection model."
 image: /images/projects/palm-line.png
+date: 2024-05-20
 header:
-  teaser: /images/projects/palm-line.png
+  teaser: projects/palm-line.png
 github: "https://github.com/fidaarahman/PalmLine-Detection-Model"
 ---
 

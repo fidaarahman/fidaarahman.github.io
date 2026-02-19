@@ -99,7 +99,7 @@ excerpt_separator: "\n\n"
 # ================================
 collections:
   publications:
-    output: true
+    output: false
     permalink: /publications/:path/
   portfolio:
     output: true

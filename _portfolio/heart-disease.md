@@ -3,8 +3,9 @@ title: "Heart Disease Risk Prediction using Deep Learning"
 collection: portfolio
 excerpt: "Deep learning model for predicting heart disease risk from medical data."
 image: /images/projects/heart-disease.png
+date: 2024-04-12
 header:
-  teaser: /images/projects/heart-disease.png
+  teaser: projects/heart-disease.png
 github: "https://github.com/fidaarahman/CardioRiskAI"
 ---
 
