@@ -16,7 +16,7 @@ repository: "fidaarahman/fidaarahman.github.io"
 # Author (Sidebar Profile)
 # ================================
 author:
-  avatar: "/images/profile.png"
+  avatar: "profile.png"
   name: "Fida Ur Rahman"
   bio: "Software Engineering graduate with experience in AI, Deep Learning, Computer Vision, and Android development."
   location: "Islamabad, Pakistan"
