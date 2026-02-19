@@ -1,0 +1,43 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% elsif post.image %}
+  {% capture teaser %}{{ post.image }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="project-item">
+  <article class="project-item__content" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if teaser %}
+      <div class="project-item__image">
+        <img src="{% if teaser contains '://' %}{{ teaser }}{% else %}{{ teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="{{ title }}">
+      </div>
+    {% endif %}
+    <div class="project-item__body">
+      <h2 class="project-item__title" itemprop="headline">
+        {% if post.github %}
+          <a href="{{ post.github }}" target="_blank" rel="noopener noreferrer">{{ title }}</a>
+        {% else %}
+          {{ title }}
+        {% endif %}
+      </h2>
+      {% if post.date %}
+        <p class="project-item__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+      {% endif %}
+      {% if post.excerpt %}
+        <p class="project-item__excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+      {% endif %}
+      {% if post.github %}
+        <p><a href="{{ post.github }}" target="_blank" rel="noopener noreferrer" class="btn btn--github"><i class="fab fa-github" aria-hidden="true"></i> View on GitHub</a></p>
+      {% endif %}
+    </div>
+  </article>
+</div>

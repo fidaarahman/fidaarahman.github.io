@@ -1,0 +1,63 @@
+/* Projects - vertical list layout only, no grid/gallery */
+
+.projects-list {
+  width: 100%;
+}
+
+.project-item {
+  display: block;
+  width: 100%;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid var(--global-border-color);
+  float: none;
+  clear: both;
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+    align-items: flex-start;
+  }
+
+  &__image {
+    flex-shrink: 0;
+    width: 180px;
+    max-height: 120px;
+    overflow: hidden;
+    border-radius: 4px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__body {
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__title {
+    margin: 0 0 0.25em;
+    font-size: 1.25rem;
+    font-family: inherit;
+  }
+
+  &__date {
+    margin: 0 0 0.5em;
+    font-size: 0.9em;
+    color: var(--global-text-color-light);
+  }
+
+  &__excerpt {
+    margin: 0 0 0.5em;
+    font-size: 1em;
+  }
+}
