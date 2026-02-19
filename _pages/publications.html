@@ -14,33 +14,26 @@ author_profile: true
 <h2>Research Publications</h2>
 <hr />
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h3>{{ category[1].title }}</h3>
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+{% for post in site.publications %}
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h3 class="archive__item-title" itemprop="headline">{{ post.title }}</h3>
 
-<h2>Projects</h2>
-<hr />
+    {% if post.venue or post.date %}
+      <p>
+        {% if post.venue %}Published in <i>{{ post.venue }}</i>{% endif %}
+        {% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
+      </p>
+    {% endif %}
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+    {% if post.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    {% endif %}
+
+    {% if post.content %}
+      <div class="page__content" itemprop="text">
+        {{ post.content | markdownify }}
+      </div>
+    {% endif %}
+  </article>
 {% endfor %}
-
-
 
