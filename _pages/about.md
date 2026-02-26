@@ -1,88 +1,71 @@
 ---
-permalink: /
-title: "Fida Ur Rahman | AI Engineer & Research Aspirant"
+permalink: /about/
+title: "About Me"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
-Hi, I'm Fida Ur Rahman
-======
+## About Me
 
-**AI Engineer | Artificial Intelligence Research Aspirant**
+I am **Fida Ur Rahman**, a Software Engineering graduate with a strong academic and practical background in **Artificial Intelligence, Deep Learning, and Computer Vision**. My work focuses on developing intelligent systems that combine research concepts with real-world applications, particularly in healthcare AI, computer vision, and intelligent automation.
 
-I am a Software Engineering graduate specializing in Artificial Intelligence, Deep Learning, and Computer Vision. My work focuses on designing intelligent systems that bridge research and real-world applications. I have hands-on experience in building, training, optimizing, and deploying AI models for practical environments, including mobile and edge devices.
+I have hands-on experience in building, training, optimizing, and deploying machine learning and deep learning models using modern AI frameworks. My projects involve end-to-end development pipelines including data preprocessing, model training, evaluation, optimization, and deployment on mobile and edge environments.
 
-My academic and professional interests lie in developing data-driven solutions for healthcare, computer vision, and intelligent automation systems. I am currently seeking opportunities to pursue advanced research in Artificial Intelligence for graduate studies.
+My goal is to contribute to impactful AI research that solves real-world problems through efficient and scalable intelligent systems.
 
 ---
 
-Research Interests
-======
+## Research Interests
 
-- Computer Vision and Medical AI  
+- Computer Vision and Medical Image Analysis  
 - Deep Learning and Generative Models  
-- Multimodal AI Systems  
+- Multimodal Artificial Intelligence  
 - Edge AI and Mobile AI Deployment  
 - Explainable and Trustworthy Artificial Intelligence  
 
 ---
 
-Selected Work & Research Experience
-======
+## Research & Technical Experience
 
-- **Palm-Line Detection using YOLOv8**  
-  Developed a computer vision system using a custom dataset for palm-line detection and optimized the model for accurate real-time inference.
+During my academic and professional journey, I have worked on several research-oriented AI projects:
 
-- **Heart Disease Risk Prediction (Deep Learning)**  
-  Designed and deployed a neural network model for cardiovascular risk prediction, exported for mobile inference using TensorFlow Lite.
+- **Computer Vision Systems** using YOLOv8 and OpenCV for real-time detection tasks.
+- **Healthcare AI Models** for disease risk prediction using deep neural networks.
+- **Generative AI Models (GANs)** for image translation and synthesis.
+- Deployment of optimized AI models using **TensorFlow Lite** for mobile applications.
+- Development of AI-powered Android applications integrating machine learning models into production environments.
 
-- **Sketch-to-Image Translation (GANs)**  
-  Built a generative adversarial network capable of converting sketches into realistic images, demonstrating applied generative AI research.
-
----
-
-My Expertise
-======
-
-* **Artificial Intelligence & Machine Learning** — Development and optimization of deep learning models  
-* **Computer Vision** — Image processing, object detection, and AI-based visual analysis  
-* **Mobile & Edge AI** — Deploying trained models into Android applications  
-* **Software Engineering** — Scalable system design and modern development practices  
+These experiences strengthened my understanding of bridging theoretical AI research with practical deployment.
 
 ---
 
-Research Vision
-======
+## Technical Skills
 
-My long-term goal is to contribute to impactful artificial intelligence research that improves real-world systems, particularly in healthcare and intelligent vision applications. I am interested in building efficient, reliable, and scalable AI models that move beyond experimental environments into practical deployment.
-
----
-
-What I Do
-======
-
-I combine artificial intelligence with software engineering to create intelligent and deployable solutions:
-
-- Developing AI-powered mobile applications  
-- Implementing real-world computer vision systems  
-- Building scalable AI-driven software solutions  
-- Exploring advanced deep learning and neural network architectures  
+**Programming:** Python, Kotlin, SQL  
+**AI Frameworks:** TensorFlow, PyTorch, Keras, Scikit-learn  
+**Computer Vision:** OpenCV, YOLOv8, MediaPipe  
+**Tools & Platforms:** Git, Jupyter, Google Colab, VS Code  
+**Deployment:** TensorFlow Lite, Mobile & Edge AI  
+**Databases:** Firebase Firestore, SQLite  
 
 ---
 
-Currently
-======
+## Research Vision
 
-I am currently working on advancing my research skills in deep learning and intelligent systems while preparing for graduate-level research opportunities in Artificial Intelligence.
+My long-term objective is to pursue graduate research in Artificial Intelligence and contribute to advancing intelligent systems that improve healthcare and real-world decision-making. I am particularly interested in developing efficient deep learning architectures that can operate reliably in real-world and resource-constrained environments.
+
+I aim to collaborate with researchers and academic institutions working on innovative AI solutions with societal impact.
 
 ---
 
-Get in Touch
-======
+## Beyond Technical Work
 
-I am open to research collaborations, academic opportunities, and discussions related to AI and technology.
+Alongside technical development, I have actively participated in volunteer and university activities, contributing to event organization, teamwork, and community engagement. These experiences have strengthened my collaboration, leadership, and communication skills.
+
+---
+
+## Contact
+
+I am open to research collaborations, academic opportunities, and discussions related to Artificial Intelligence.
 
 📧 **Email:** fidaurrahman700@gmail.com  
 🔗 **LinkedIn:** https://www.linkedin.com/in/your-linkedin-username/  
