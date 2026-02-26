@@ -5,8 +5,7 @@ locale: "en-US"
 title: "Fida Ur Rahman"
 title_separator: "-"
 name: &name "Fida Ur Rahman"
-
-description: &description "AI Engineer | Artificial Intelligence Research Aspirant specializing in Deep Learning and Computer Vision"
+description: &description "Software Engineer"
 
 url: "https://fidaarahman.github.io"
 baseurl: ""
@@ -17,21 +16,19 @@ repository: "fidaarahman/fidaarahman.github.io"
 # Author (Sidebar Profile)
 # ================================
 author:
-  avatar: "/images/profile.png"   # keep image inside /images folder
+  avatar: "profile.png"
   name: "Fida Ur Rahman"
-
-  bio: "AI Engineer & Artificial Intelligence Research Aspirant working on Deep Learning, Computer Vision, and Healthcare AI systems."
-
+  bio: "Software Engineering graduate with experience in AI, Deep Learning, Computer Vision, and Android development."
   location: "Islamabad, Pakistan"
-  employer: "Artificial Intelligence Engineer"
+  employer: "AI Engineer"
   email: "fidaurrahman700@gmail.com"
 
-  # Academic Profiles (add later if available)
+  # Academic profiles
   googlescholar:
   researchgate:
   orcid:
 
-  # Development Profiles
+  # Code & Dev
   github: "fidaarahman"
   kaggle:
   stackoverflow:
@@ -54,20 +51,20 @@ publication_category:
 # Site Behavior
 # ================================
 breadcrumbs: false
-words_per_minute: 180
+words_per_minute: 160
 future: true
 read_more: "disabled"
 talkmap_link: false
 
 # ================================
-# SEO Improvements
+# SEO (optional)
 # ================================
 google_site_verification:
 bing_site_verification:
 yandex_site_verification:
 
 # ================================
-# Analytics
+# Analytics (disabled for now)
 # ================================
 analytics:
   provider: false
@@ -133,7 +130,7 @@ sass:
 # Output
 # ================================
 permalink: /:categories/:title/
-timezone: Asia/Karachi
+timezone: Etc/UTC
 
 # ================================
 # Plugins (GitHub Pages supported)
