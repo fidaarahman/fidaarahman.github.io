@@ -32,17 +32,3 @@ Get in Touch
 ======
 I'm always interested in discussing new opportunities, collaborations, or just chatting about AI and technology. You can reach me at fidaurrahman700@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/your-linkedin-username/) and [GitHub](https://github.com/fidaarahman).
 
-Interview Q&A
-======
-**Paper Title:** *An Integrated Multi-Modal AI Framework for Credit Card Fraud Detection*
-
-- **Conference:** International Conference on Recent and Innovative Results in Engineering and Technology (ICRIRET 2026)
-
-- **Location:** Konya, Turkey
-
-- **Year:** 2026
-
-If asked in an interview:
-
-> "Yes, I co-authored a research paper titled 'An Integrated Multi-Modal AI Framework for Credit Card Fraud Detection.' The paper was published in the proceedings of the International Conference on Recent and Innovative Results in Engineering and Technology (ICRIRET 2026), held in Konya, Turkey."
-
