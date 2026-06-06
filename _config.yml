@@ -7,8 +7,9 @@ title_separator: "-"
 name: &name "Fida Ur Rahman"
 description: &description "Software Engineer"
 
-url: "https://fidaarahman.github.io"
+url: "https://fidaurrahman.me"
 baseurl: ""
+cname: "fidaurrahman.me"
 
 repository: "fidaarahman/fidaarahman.github.io"
 
