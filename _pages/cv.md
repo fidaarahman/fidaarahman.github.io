@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,19 +9,56 @@ redirect_from:
 
 {% include base_path %}
 
-## Experience
+## Education
 
-* **AI Engineer** — Current role and key responsibilities
-* Previous positions and dates as applicable
+| Degree | Institution | Year | Grade |
+|--------|-------------|------|-------|
+| **B.Sc. Software Engineering** | Capital University of Science and Technology (CUST), Islamabad | 2024 | CGPA 3.19 |
+| **HSSC (FSc)** | Government Degree College No.2, Bannu | — | — |
+| **SSC (Matric)** | Iqra Public High School, Bannu | — | — |
 
-## Skills
+---
 
-* **Programming**: Python, Java/Kotlin, C++
-* **AI & Machine Learning**: Deep Learning (TensorFlow, PyTorch, Keras), Computer Vision, NLP
-* **Tools**: Git/GitHub, Docker, Android SDK
+## Research
 
-## Education Overview
+**An Integrated Multi-Modal AI Framework for Credit Card Fraud Detection**
+*ICRIRET 2026 — International Conference on Recent and Innovative Results in Engineering and Technology, Konya, Turkey*
+Co-authored paper presenting a Transformer + GNN framework achieving 99.2% recall and 0.996 AUC.
 
-* Bachelor of Software Engineering, Capital University of Science and Technology (CUST), CGPA 3.19 — Islamabad
+---
 
-For full education details, see [Education](/education/). For projects and publications, see [Projects](/projects/) and [Publications](/publications/).
+## Technical Skills
+
+**Programming Languages**
+Python · Java / Kotlin · C++
+
+**AI & Machine Learning**
+TensorFlow · PyTorch · Keras · Scikit-learn · OpenCV · YOLOv8
+
+**Domains**
+Deep Learning · Computer Vision · NLP · Graph Neural Networks · Object Detection · Generative Models
+
+**Tools & Platforms**
+Git / GitHub · Docker · Android SDK · Jupyter · Linux
+
+---
+
+## Certifications
+
+- **IBM** — Machine Learning Professional Certificate
+- **IBM** — Generative AI Fundamentals
+- **Coursera** — Relevant AI/ML specializations
+
+---
+
+## Languages
+
+| Language | Proficiency |
+|----------|-------------|
+| Pashto | Native |
+| Urdu | Fluent |
+| English | Fluent |
+
+---
+
+*For full project details see [Projects](/projects/). For publications see [Publications](/publications/).*

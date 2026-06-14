@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
@@ -14,24 +14,68 @@ author_profile: true
 <h2>Research Publications</h2>
 <hr />
 
-<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-  <h3 class="archive__item-title" itemprop="headline">An Integrated Multi-Modal AI Framework for Credit Card Fraud Detection</h3>
+<div class="publication-list">
 
-  <p><i>Status: Published — ICRIRET 2026 (Konya, Turkey)</i></p>
+  <!-- ====================================================
+       Paper 1 — ICRIRET 2026
+  ===================================================== -->
+  <div class="pub-entry" style="margin-bottom: 2.5em; padding: 1.5em 1.8em; border-left: 4px solid #1a73e8; background: #f8faff; border-radius: 0 6px 6px 0;">
 
-  <p class="archive__item-excerpt" itemprop="description">
-    Multi-modal AI framework combining Transformers and Graph Neural Networks for fraud detection.
-  </p>
+    <!-- Title -->
+    <h3 style="margin-top: 0; margin-bottom: 0.4em; font-size: 1.1em; line-height: 1.4;">
+      An Integrated Multi-Modal AI Framework for Credit Card Fraud Detection
+    </h3>
 
-  <div class="page__content" itemprop="text">
-    <p>
-      This research paper presents an integrated multi-modal artificial intelligence framework designed for credit card fraud detection. The approach combines Transformer architectures with Graph Neural Networks to achieve robust fraud detection while maintaining high recall and precision.
+    <!-- Authors — highlight Fida Ur Rahman as 2nd author -->
+    <p style="margin: 0.3em 0; font-size: 0.95em; color: #333;">
+      <span style="font-style: italic;">
+        [First Author Name],
+        <strong style="color: #1a73e8;">Fida Ur Rahman</strong>,
+        [Third Author Name]
+      </span>
     </p>
-    <p>
-      <strong>Key contributions:</strong> The framework leverages multiple data modalities and achieves state-of-the-art performance with privacy-preserving AI integration for secure financial transactions. 
+
+    <!-- Venue & Status -->
+    <p style="margin: 0.4em 0; font-size: 0.9em; color: #555;">
+      <span style="background: #1a73e8; color: #fff; border-radius: 3px; padding: 2px 8px; font-size: 0.82em; font-weight: 600; margin-right: 6px;">Conference Paper</span>
+      <span style="background: #27ae60; color: #fff; border-radius: 3px; padding: 2px 8px; font-size: 0.82em; font-weight: 600; margin-right: 6px;">Published</span>
+      <strong>ICRIRET 2026</strong> &mdash; International Conference on Recent and Innovative Results in Engineering and Technology,
+      Konya, Turkey, 2026
     </p>
-    <p>
-      <em>Published in the proceedings of the International Conference on Recent and Innovative Results in Engineering and Technology (ICRIRET 2026), Konya, Turkey.</em>
+
+    <!-- Abstract -->
+    <p style="margin: 0.8em 0 0.6em; font-size: 0.92em; color: #444; line-height: 1.6;">
+      <strong>Abstract:</strong> This paper presents an integrated multi-modal artificial intelligence framework for
+      credit card fraud detection. The approach combines Transformer architectures with Graph Neural Networks (GNN),
+      leveraging multiple data modalities to capture both sequential transaction patterns and relational graph structure.
+      The framework incorporates interpretable feature fusion and privacy-preserving AI components, achieving
+      <strong>99.2% recall</strong> and an <strong>AUC of 0.996</strong> on benchmark financial datasets.
     </p>
+
+    <!-- Keywords -->
+    <p style="margin: 0.5em 0; font-size: 0.85em; color: #666;">
+      <strong>Keywords:</strong>
+      <span style="background: #eef2ff; color: #3b5bdb; border-radius: 3px; padding: 2px 7px; margin-right: 4px; display: inline-block;">Fraud Detection</span>
+      <span style="background: #eef2ff; color: #3b5bdb; border-radius: 3px; padding: 2px 7px; margin-right: 4px; display: inline-block;">Transformer</span>
+      <span style="background: #eef2ff; color: #3b5bdb; border-radius: 3px; padding: 2px 7px; margin-right: 4px; display: inline-block;">Graph Neural Networks</span>
+      <span style="background: #eef2ff; color: #3b5bdb; border-radius: 3px; padding: 2px 7px; margin-right: 4px; display: inline-block;">Multi-Modal AI</span>
+      <span style="background: #eef2ff; color: #3b5bdb; border-radius: 3px; padding: 2px 7px; margin-right: 4px; display: inline-block;">Deep Learning</span>
+    </p>
+
+    <!-- Action links -->
+    <p style="margin: 0.8em 0 0; font-size: 0.9em;">
+      <a href="/files/paper1.pdf" style="display: inline-block; margin-right: 10px; padding: 5px 14px; background: #1a73e8; color: #fff; border-radius: 4px; text-decoration: none; font-size: 0.88em;">
+        &#128196; PDF
+      </a>
+      <a href="/files/bibtex1.bib" style="display: inline-block; padding: 5px 14px; background: #555; color: #fff; border-radius: 4px; text-decoration: none; font-size: 0.88em;">
+        &#128196; BibTeX
+      </a>
+    </p>
+
   </div>
-</article>
+
+</div>
+
+<p style="color: #888; font-size: 0.88em; margin-top: 2em;">
+  <em>* Author names listed in publication order. <strong>Bold</strong> indicates the portfolio author.</em>
+</p>

@@ -1,34 +1,28 @@
 ---
 permalink: /
-title: "Welcome to My Portfolio"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hi, I'm Fida Ur Rahman!
-======
-I am a Software Engineering graduate with strong experience in artificial intelligence and applied machine learning. I have worked on research-oriented projects in computer vision, deep learning, and natural language processing, and have hands-on experience in building, training, and deploying AI models for real-world applications.
+I am **Fida Ur Rahman**, a Software Engineering graduate with a strong background in artificial intelligence, deep learning, and computer vision. My work spans research-oriented AI projects and practical software development, with a focus on building robust, real-world solutions.
 
-My Expertise
-======
-* **Artificial Intelligence & Machine Learning**: Experienced in developing AI models and implementing deep learning solutions
-* **Computer Vision**: Worked on image processing and computer vision applications
-* **Android Development**: Building robust mobile applications with modern Android technologies
-* **Software Engineering**: Strong foundation in software design, development, and best practices
+## Research & Expertise
 
-What I Do
-======
-I combine my knowledge of AI and software development to create innovative solutions. My work focuses on:
-- Developing AI-powered mobile applications
-- Implementing computer vision systems
-- Building scalable software solutions
-- Exploring new technologies in deep learning and neural networks
+- **Artificial Intelligence & Deep Learning** — Designing and training neural network architectures (CNNs, Transformers, GNNs) for classification, detection, and generation tasks
+- **Computer Vision** — Object detection, image segmentation, and generative image models using PyTorch and TensorFlow
+- **Natural Language Processing** — Sequence modeling, feature extraction, and transformer-based models
+- **Android Development** — Building production-grade mobile applications with Kotlin and the Android SDK
+- **Software Engineering** — System design, version control (Git), containerization (Docker), and clean code practices
 
-Currently, I'm focused on advancing my skills in AI and contributing to projects that make a real impact. Feel free to explore my projects and publications, and don't hesitate to reach out if you'd like to collaborate!
+## Selected Work
 
-Get in Touch
-======
-I'm always interested in discussing new opportunities, collaborations, or just chatting about AI and technology. You can reach me at fidaurrahman700@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/your-linkedin-username/) and [GitHub](https://github.com/fidaarahman).
+My published research includes a **multi-modal AI framework for credit card fraud detection** (ICRIRET 2026, Konya, Turkey), combining Transformer and Graph Neural Network architectures to achieve 99.2% recall and an AUC of 0.996.
 
+Projects I have built include an AI-powered fraud detection system, a palm-line detection model using YOLOv8, a cardiac risk prediction system, and a sketch-to-image translation network. See [Projects](/projects/) and [Publications](/publications/) for details.
+
+## Get in Touch
+
+I am open to research collaborations, AI engineering roles, and technical discussions. Reach me at [fidaurrahman700@gmail.com](mailto:fidaurrahman700@gmail.com), on [LinkedIn](https://www.linkedin.com/in/fidarh24), or on [GitHub](https://github.com/fidaarahman).
