@@ -3,7 +3,7 @@ title: "An Integrated Multi-Modal AI Framework for Credit Card Fraud Detection"
 collection: publications
 category: conferences
 permalink: /publication/fraud-detection
-authors: , Fida Ur Rahman, [Third Author Name]"
+authors: "Asim Zubair, Fida Ur Rahman, Dr. Sabeen Masood"
 venue: "International Conference on Recent and Innovative Results in Engineering and Technology (ICRIRET 2026)"
 location: "Konya, Turkey"
 date: 2026-01-01
